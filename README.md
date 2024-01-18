@@ -1,0 +1,3 @@
+The Halal Scanner is an Android application that helps users identify whether food products are Halal or Haram. It uses Google's ML Kit Vision for barcode and text scanning, and the [Open Food Facts API](https://openfoodfacts.github.io/openfoodfacts-server/api/) to fetch product ingredients and images. The app determines the Halal status of ingredients by comparing them against a list, and stores the status and product images in a local Android Room database. This user-friendly tool is designed to support a maximum of 100 items in the history, making it a practical solution for everyday use.
+
+This project showcases my skills in Android development, Google ML Kit Vision, API usage, and local database management with Android Room and SQLite.
