@@ -5,15 +5,9 @@ import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.util.Log
-import androidx.room.Room
 import com.example.halalscanner.history.DatabaseManager
-import com.example.halalscanner.history.HistoryActivity
 import com.example.halalscanner.history.HistoryData
-import com.example.halalscanner.history.HistoryDatabase
 import com.google.android.gms.tasks.Tasks
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import com.google.mlkit.nl.languageid.LanguageIdentification
@@ -341,7 +335,6 @@ class MainLogic(private val context: Context) {
             }
         }
     }
-
 }
 
 
