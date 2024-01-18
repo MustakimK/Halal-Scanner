@@ -333,7 +333,7 @@ class MainLogic(private val context: Context) {
                 if (count > 100) {
                     db.historyDao().deleteOldest(count - 100)
                 }else{
-                    // TODO Do nothing because kotlin is stupid
+                    // Do nothing here because thats how kotlin works
                 }
             } catch (e: Exception) {
                 // Log an error message if an exception occurs
