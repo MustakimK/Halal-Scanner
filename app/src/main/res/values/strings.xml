@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Halal Scanner</string>
+    <string name="scan_a_barcode">Scan a Barcode</string>
+    <string name="scan_text">Scan Text</string>
+    <string name="input_ingredients">Input Ingredients</string>
+    <string name="warning_string">⚠ This app’s information is not guaranteed to be accurate. Verify the halal status of the item yourself before consumption.</string>
+    <string name="history">History</string>
+    <string name="haram">This item is Haram</string>
+    <string name="halal">This item is Halal</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="input_ingredients_hint">Enter ingredients, separated by commas</string>
+    <string name="submit">Submit</string>
+    <string name="confirm">Confirm</string>
+    <string name="scanning_instructions">Please take a clear picture of the barcode or list of ingredients.</string>
+    <string name="unknown">This item may contain ingredients that originate from haram sources. Please contact the manufacturer.</string>
+    <string name="history_item_name">Name</string>
+    <string name="history_status">Status</string>
+    <string name="back_button">back_button</string>
+</resources>

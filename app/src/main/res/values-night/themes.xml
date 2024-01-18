@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HalalScanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorSecondary">@color/secondaryDark</item>
+
+        <item name="android:textColorPrimary">@color/textColorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryDark</item>
+        <item name="android:textColorTertiary">@color/textColorTertiaryDark</item>
+
+        <item name="android:windowBackground">@color/backgroundDark</item>
+    </style>
+</resources>

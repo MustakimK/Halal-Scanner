@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!--For camera permissions-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!--For internet permissions-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HalalScanner"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".history.HistoryActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".barcodeScan.ScanActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".textScan.ScanTextActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".mainLogic.HaramActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".mainLogic.HalalActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".mainLogic.UnknownActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".typeIngredients.TypeIngredientsActivity"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+    </application>
+
+</manifest>
